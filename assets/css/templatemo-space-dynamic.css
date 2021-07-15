@@ -196,7 +196,9 @@ body {
     margin-bottom: 60px;
   }
 }
-
+.our-blog {
+  margin-bottom: 0px;
+}
 .page-section {
   margin-top: 120px;
 }
@@ -663,6 +665,9 @@ header
   .header-area .main-nav:before {
     display: none;
   }
+  .our-blog {
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -676,6 +681,9 @@ header
   .header-area .main-nav .nav li:nth-child(6),
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
+  }
+  .our-blog {
+    margin-bottom: 0px;
   }
 }
 
@@ -728,6 +736,9 @@ header
   }
   .background-header .nav {
     margin-top: 80px;
+  }
+  .our-blog {
+    margin-bottom: 0px;
   }
   .header-area .main-nav .nav li:first-child {
     border-top: 1px solid #eee;
@@ -790,6 +801,9 @@ header
 @media (min-width: 767px) {
   .header-area .main-nav .nav {
     display: flex !important;
+  }
+  .our-blog {
+    margin-bottom: 0px;
   }
 }
 
@@ -1299,8 +1313,8 @@ Blog
 
 .our-blog {
   position: relative;
-  /* margin-top: 80px;
-  padding-top: 120px; */
+  margin-bottom: 250px;
+  /* padding-top: 120px; */
 }
 
 .our-blog .section-heading h2 {
@@ -1771,6 +1785,9 @@ responsive
   .our-blog .right-list .right-image,
   .our-blog .right-list .right-image img {
     width: 100%;
+  }
+  .our-blog {
+    margin-bottom: 0px;
   }
   .phone-info h4 span {
     display: block;
